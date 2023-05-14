@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Generate 100 random data points along 3 dimensions
-x, y, scale = (1, 1)
+x, y, scale = np.random.randn(3, 100)
 fig, ax = plt.subplots()
 
 # Map each onto a scatterplot we'll create with Matplotlib
